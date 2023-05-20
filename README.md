@@ -2,20 +2,42 @@
 ### 简介
 + 谷歌娘声库，UTAU版本
 + 之前搞的DeepVocal版本因为软件问题放弃了，现在用回UTAU
-+ 还是基于 `BV1V54y1y7Eb` 制作的
-+ 主要重调了固定发音参数，修复一些缺少的发音
-+ 先计划把基础部分做好，之后有时间可能会完善扩张整音和单独元辅音
++ 还是基于 [BV1V54y1y7Eb](https://www.bilibili.com/video/BV1V54y1y7Eb/) 制作的
++ 主要重调了固定发音参数，修复一些缺少的发音，完善其它功能
 + 做好后会有示例工程
+
+### 发音
++ 已添加
+  - a 单独音
+  - a- 衔接音 (用于衔接扩展音)
+  - _a 扩展音 (扩张整音)
+  - @br 呼吸音
++ 没做好
+  - -a 开头音
+  - Va 单独元音
+  - Ua 单独辅音
+
+### 关于
++ 制作：Zxwy
++ 采样：蒟蒻老哲_
++ 音源：谷歌翻译
++ 开源免费，严禁商用
++ 部分参数参考了葛平的音源
 ### 其它
-#### 用到的工具
-+ https://github.com/stakira/OpenUtau
-+ https://github.com/sdercolin/vlabeler
-#### 部分参数参考了葛平的音源
++ 推荐软件
+  - [OpenUtau - 第三方编辑器](https://github.com/stakira/OpenUtau)
+  - [vLabeler - oto标注工具](https://github.com/sdercolin/vlabeler)
++ 推荐网站
+  - [Zxwy生草机 - 在线翻译](https://cao.zxwy.tk/)
+
 ### 更新
-#### 2023-04-29
 + 进度
-  - 已完成：a, b, c, d, e, f, g, h, i, j, k, -, u, v, w, x, y, -
-  - 未完成：l, m, n, o, p, q, r, s, t, -, z
-+ 其它
-  - 添加试听音频demo，证明这个仓库还在更新
-  - 预计五一假期后发布 1.0 版本
+  - 单独音：a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z 已全部完成
+  - 衔接音：制作中
+  - 扩展音：已完成
+  - 呼吸音：@br1-5 已完成
+  - 开头音：制作中
+  - 元辅音：制作中
++ Demo
+  - 《不是因为寂寞才想你》- Xina
+  - ？？？
